@@ -56,6 +56,9 @@
       case "salvar":
       include("salvar-usuário.php");
       break;
+      case"editar":
+        include("editar-usuario.php");
+        break;
       default:
       print "<h1>Bem-Vindo</h1>";       
  }
